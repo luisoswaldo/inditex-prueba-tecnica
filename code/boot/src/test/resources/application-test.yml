@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: 'jdbc:h2:mem:inditex-test'
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+
+app:
+  version: @project.version@
+
+logging:
+  level:
+    root: INFO
