@@ -2,9 +2,11 @@
 
 This is a Java / Maven / SpringBoot test microservice that provides an endpoint to look up the applicable pricing rate according to certain input parameters.
 
-Java Version = 17 / JDK 17.0.8
+```
+Java Version = 17 / JDK 17.0.8 
 Maven Version = 3.9.2
 Spring Boot Version = 3.1.3
+```
 
 ## How to Run 
 
