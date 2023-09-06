@@ -8,7 +8,7 @@ Spring Boot Version = 3.1.3
 
 ## How to Run 
 
-This application is packaged as a war which has Tomcat embedded. You run it using the ```java -jar``` command.
+This application is packaged as a jar which has Tomcat embedded. You run it using the ```java -jar``` command.
 
 * Clone this repository
 * Make sure you are using JDK 17 and Maven 3.x
