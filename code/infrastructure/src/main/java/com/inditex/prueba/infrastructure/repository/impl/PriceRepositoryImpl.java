@@ -25,7 +25,7 @@ public class PriceRepositoryImpl implements PriceRepository {
 
     @Override
     public PriceModel findPrice(final LocalDateTime appDate, final Integer productId, final Integer brandId)
-            throws NotFoundException {
+            throws NotFoundException, DomainException {
         try {
             Pageable pageable = PageRequest.of(0, 1);
             Page<PriceEntity> priceEntity =  this.priceRepositoryJpa
