@@ -1,7 +1,7 @@
 package com.inditex.prueba.infrastructure.repository.mapper;
 
 import com.inditex.prueba.domain.model.PriceModel;
-import com.inditex.prueba.infrastructure.repository.h2.PriceEntity;
+import com.inditex.prueba.infrastructure.repository.entity.PriceEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;

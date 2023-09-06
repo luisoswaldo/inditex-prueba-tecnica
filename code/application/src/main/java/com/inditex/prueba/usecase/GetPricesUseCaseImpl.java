@@ -15,7 +15,7 @@ public class GetPricesUseCaseImpl implements GetPricesUseCase {
     PriceRepository priceRepository;
 
     @Override
-    public PriceModel findPrice(LocalDateTime date, Integer productId, Integer brandId) {
+    public PriceModel findPrice(final LocalDateTime date, final Integer productId, final Integer brandId) {
         return priceRepository.findPrice(date, productId, brandId);
     }
 }

@@ -1,4 +1,4 @@
-package com.inditex.prueba.infrastructure.repository.h2;
+package com.inditex.prueba.infrastructure.repository.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

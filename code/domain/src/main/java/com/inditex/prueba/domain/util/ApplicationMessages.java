@@ -3,7 +3,7 @@ package com.inditex.prueba.domain.util;
 public enum ApplicationMessages {
 
     BD_ACCESS_ERROR(5001, "Error trying to access the database."),
-    RECORD_NOT_FOUND(4004, "Record with identifier not found %s."),
+    RECORD_NOT_FOUND(4004, "Record not found"),
     VALIDATE_FILED_ERROR(4000, "Required fields %s."),
     DATE_NOT_PARSED(4001, "Date could not be parsed");
 
